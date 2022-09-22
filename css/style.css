@@ -1,11 +1,30 @@
-#nav-bar{
+h1 {
+  text-align: center;
+}
+img {
+    position: center;
+    width: auto; 
+}
+
+#nav-bar {
+    margin: auto;
     position: fixed;
     width: 100%; 
     top: 0;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: yellow;
+#form {
+  margin: auto;
+  width: 95%;
+}
+
+@media only screen and (max-width: 900px) {
+    #nav-bar {
+      position: relative;
+      width: auto;
     }
   }
+
+.flex {
+    display: flex;
+}
